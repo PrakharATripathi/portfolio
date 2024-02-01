@@ -5,7 +5,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Tech from "./Tech";
 import Works from "./Works";
-// import Contact from "./Contact";
+import Contact from "./Contact";
 // import CanvasLoader from "./Loader";
 
 
@@ -16,7 +16,7 @@ export {
   Experience,
   Tech,
   Works,
-  // Contact,
+  Contact,
   // CanvasLoader,
   // EarthCanvas, 
   // BallCanvas, 
