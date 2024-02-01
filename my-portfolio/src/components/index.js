@@ -4,7 +4,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Experience from "./Experience";
 import Tech from "./Tech";
-// import Works from "./Works";
+import Works from "./Works";
 // import Contact from "./Contact";
 // import CanvasLoader from "./Loader";
 
@@ -15,7 +15,7 @@ export {
   About,
   Experience,
   Tech,
-  // Works,
+  Works,
   // Contact,
   // CanvasLoader,
   // EarthCanvas, 
