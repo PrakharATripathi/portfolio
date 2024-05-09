@@ -1,6 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Works } from "./components";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
     return (
@@ -21,6 +23,7 @@ const App = () => {
                     </div>
                 </div>
             </BrowserRouter>
+            <ToastContainer />
         </>
     )
 }
