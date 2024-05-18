@@ -108,7 +108,7 @@ const experiences = [
     company_name: "Saeculum Solutions Pvt Ltd",
     icon: Saeculum,
     iconBg: "#383E56",
-    date: "April 2023 - Present",
+    date: "April 2023 - February 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
