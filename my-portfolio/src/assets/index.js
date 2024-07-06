@@ -19,6 +19,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import bootstrap from "./tech/bootstrap.png";
 import hero from "./hero.png";
+import hirex from "./hirex.png";
 
 import Saeculum from "./company/Saeculum.png";
 
@@ -47,5 +48,6 @@ export {
   Saeculum,
   carrent,
   bootstrap,
-  hero
+  hero,
+  hirex
 };

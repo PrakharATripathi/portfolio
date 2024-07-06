@@ -14,8 +14,10 @@ import {
   figma,
   carrent,
   Saeculum,
-  bootstrap
+  bootstrap,
+  hirex
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -164,6 +166,28 @@ const projects = [
     image: carrent,
     source_code_link: "https://github.com/PrakharATripathi/React-Project/tree/main/orderify",
     live_link:"https://orderifyapp.netlify.app/"
+  },
+  {
+    name: "Hirex App",
+    description:
+      "HireX is a modern web application developed using React.js and Tailwind CSS, designed to streamline the hiring process. This project incorporates a small Google AI feature, Gemini, enhancing the user experience with intelligent interactions and insights. The application showcases a sleek and responsive UI, demonstrating advanced frontend development skills and the integration of cutting-edge AI technology.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "generative-ai",
+        color: "green-text-gradient",
+      },
+    ],
+    image: hirex,
+    source_code_link: "https://github.com/PrakharATripathi",
+    live_link:"https://hirex-coral.vercel.app/"
   }
 ];
 
