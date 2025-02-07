@@ -144,12 +144,20 @@ const projects = [
       "Web-based platform that allows users to search, Product, and manage Product  from  providers. shopping app built with React.js and enhanced with the sleek aesthetics of Tailwind CSS. Elevate your online shopping journey with a blend of powerful functionality and a modern design that caters to your every need.",
     tags: [
       {
-        name: "react",
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "orange-text-gradient",
       },
     ],
     image: carrent,
@@ -162,16 +170,24 @@ const projects = [
       "HireX is a modern web application developed using React.js and Tailwind CSS, designed to streamline the hiring process. This project incorporates a small Google AI feature, Gemini, enhancing the user experience with intelligent interactions and insights. The application showcases a sleek and responsive UI, demonstrating advanced frontend development skills and the integration of cutting-edge AI technology.",
     tags: [
       {
-        name: "react",
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
       {
-        name: "generative-ai",
+        name: "Generative AI",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Node JS",
         color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "orange-text-gradient",
       },
     ],
     image: hirex,
