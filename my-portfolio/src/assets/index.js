@@ -18,7 +18,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import bootstrap from "./tech/bootstrap.png";
-import hero from "./hero.png";
+import hero from "./hero2.png";
 import hirex from "./hirex.png";
 
 import Saeculum from "./company/Saeculum.png";
