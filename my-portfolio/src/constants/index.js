@@ -165,9 +165,9 @@ const projects = [
     live_link:"https://orderifyapp.netlify.app/"
   },
   {
-    name: "Hirex App",
+    name: "Hirez Talent App",
     description:
-      "HireX is a modern web application developed using React.js and Tailwind CSS, designed to streamline the hiring process. This project incorporates a small Google AI feature, Gemini, enhancing the user experience with intelligent interactions and insights. The application showcases a sleek and responsive UI, demonstrating advanced frontend development skills and the integration of cutting-edge AI technology.",
+      "HireZ is a modern web application developed using React.js and Tailwind CSS, designed to streamline the hiring process. This project incorporates a small Google AI feature, Gemini, enhancing the user experience with intelligent interactions and insights. The application showcases a sleek and responsive UI, demonstrating advanced frontend development skills and the integration of cutting-edge AI technology.",
     tags: [
       {
         name: "React Js",
