@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { styles } from "../styles";
@@ -50,6 +51,15 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScrollClose);
     return () => window.removeEventListener("scroll", handleScrollClose);
   }, [toggle]);
+  
+  const scrollToTop = () => {
+    scroll.scrollToTop({
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    });
+    setActive("");
+  };
 
   return (
     <nav
@@ -62,13 +72,10 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
+        <RouterLink
           to='/'
           className='flex items-center gap-3'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
+          onClick={scrollToTop}
         >
           <img
             src={logo}
@@ -82,7 +89,7 @@ const Navbar = () => {
               | <span className="text-[#915EFF]">Software Engineer</span>
             </span>
           </p>
-        </Link>
+        </RouterLink>
 
         <div className='flex items-center gap-6'>
           {/* Social Media Links */}
@@ -136,10 +143,20 @@ const Navbar = () => {
                 className={`${
                   active === nav.title ? "text-white" : "text-secondary"
                 } hover:text-white text-[17px] font-medium cursor-pointer transition-colors duration-300 relative group`}
-                onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
-                <span className='absolute bottom-[-5px] left-0 w-0 h-[2px] bg-[#915EFF] group-hover:w-full transition-all duration-300'></span>
+                <ScrollLink 
+                  to={nav.id}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={800}
+                  activeClass="active"
+                  onSetActive={() => setActive(nav.title)}
+                  className="cursor-pointer"
+                >
+                  {nav.title}
+                </ScrollLink>
+                <span className={`absolute bottom-[-5px] left-0 h-[2px] bg-[#915EFF] transition-all duration-300 ${active === nav.title ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
               </li>
             ))}
           </ul>
@@ -201,18 +218,20 @@ const Navbar = () => {
                         className={`font-medium cursor-pointer text-[16px] ${
                           active === nav.title ? "text-white" : "text-secondary"
                         } hover:text-white transition-colors duration-300`}
-                        onClick={() => {
-                          setToggle(!toggle);
-                          setActive(nav.title);
-                        }}
                       >
-                        <a 
-                          href={`#${nav.id}`}
-                          className="flex items-center gap-2 py-1"
+                        <ScrollLink 
+                          to={nav.id}
+                          spy={true}
+                          smooth={true}
+                          offset={-100}
+                          duration={800}
+                          onClick={() => setToggle(false)}
+                          onSetActive={() => setActive(nav.title)}
+                          className="flex items-center gap-2 py-1 cursor-pointer"
                         >
                           <span className="w-1.5 h-1.5 rounded-full bg-[#915EFF]"></span>
                           {nav.title}
-                        </a>
+                        </ScrollLink>
                       </li>
                     ))}
 
