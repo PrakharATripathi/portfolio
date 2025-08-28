@@ -16,7 +16,8 @@ import {
   Saeculum,
   Ordex,
   bootstrap,
-  hirex
+  hirex,
+  chat
 } from "../assets";
 
 
@@ -139,9 +140,9 @@ const experiences = [
 
 const projects = [
   {
-    name: "Shopping App",
+    name: "Real-Time Chat App",
     description:
-      "Web-based platform that allows users to search, Product, and manage Product  from  providers. shopping app built with React.js and enhanced with the sleek aesthetics of Tailwind CSS. Elevate your online shopping journey with a blend of powerful functionality and a modern design that caters to your every need.",
+      "Full-stack real-time chat app using MERN with features like live messaging, group chat, and user profiles customization. The app is built with React for the frontend, Node.js and Express for the backend, and MongoDB for data storage. It utilizes Socket.io for real-time communication, ensuring instant message delivery and updates.",
     tags: [
       {
         name: "React Js",
@@ -156,13 +157,21 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "Socket.io",
+        color: "purple-text-gradient",
+      },
+      {
         name: "Mongo DB",
         color: "orange-text-gradient",
+      },
+      {
+        name: "zustand",
+        color: "",
       }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/PrakharATripathi/React-Project/tree/main/orderify",
-    live_link:"https://orderifyapp.netlify.app/"
+    image: chat,
+    source_code_link: "https://github.com/PrakharATripathi/chat_app/tree/main",
+    live_link:"https://chattlink.vercel.app/login"
   },
   {
     name: "Hirez Talent App",
@@ -193,6 +202,32 @@ const projects = [
     image: hirex,
     source_code_link: "https://github.com/PrakharATripathi",
     live_link:"https://hirex-coral.vercel.app/"
+  },
+    {
+    name: "Shopping App",
+    description:
+      "Web-based platform that allows users to search, Product, and manage Product  from  providers. shopping app built with React.js and enhanced with the sleek aesthetics of Tailwind CSS. Elevate your online shopping journey with a blend of powerful functionality and a modern design that caters to your every need.",
+    tags: [
+      {
+        name: "React Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/PrakharATripathi/React-Project/tree/main/orderify",
+    live_link:"https://orderifyapp.netlify.app/"
   }
 ];
 
