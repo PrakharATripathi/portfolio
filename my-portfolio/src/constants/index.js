@@ -17,7 +17,8 @@ import {
   Ordex,
   bootstrap,
   hirex,
-  chat
+  chat,
+  Smart
 } from "../assets";
 
 
@@ -139,6 +140,36 @@ const experiences = [
 
 
 const projects = [
+  {
+    name: "Smart Tutor App",
+    description:
+      "SmartTutor is a Next.js application for JEE/NEET exam preparation.AI-powered quizzes that generate personalized questions based on student needs.Performance analytics with detailed reports on subject strengths/weaknesses.AI learning assistant for answering student questions",
+    tags: [
+      {
+        name: "Next Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongo DB",
+        color: "orange-text-gradient",
+      },
+       {
+        name: "Generative AI",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: Smart,
+    source_code_link: "https://github.com/PrakharATripathi/smart-learn",
+    live_link:"https://smart-tutor.app"
+  },
   {
     name: "Real-Time Chat App",
     description:
