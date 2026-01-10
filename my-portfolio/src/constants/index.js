@@ -18,9 +18,11 @@ import {
   bootstrap,
   hirex,
   chat,
-  Smart
+  Smart,
+  reactNative,
+  nodejs,
+  remix
 } from "../assets";
-
 
 export const navLinks = [
   {
@@ -57,6 +59,18 @@ const services = [
   {
     title: "Next js Developer",
     icon: backend,
+  },
+  {
+    title: "Remix Developer",
+    icon: remix,
+  },
+  {
+    title: "Node js Developer",
+    icon: nodejs,
+  },
+  {
+    title: "React Native Developer",
+    icon: reactNative,
   },
 ];
 
@@ -104,7 +118,7 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  }
+  },
 ];
 
 const experiences = [
@@ -134,10 +148,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
- 
 ];
-
-
 
 const projects = [
   {
@@ -161,14 +172,14 @@ const projects = [
         name: "Mongo DB",
         color: "orange-text-gradient",
       },
-       {
+      {
         name: "Generative AI",
         color: "purple-text-gradient",
       },
     ],
     image: Smart,
     source_code_link: "https://github.com/PrakharATripathi/smart-learn",
-    live_link:"https://smart-tutor.app"
+    live_link: "https://smart-tutor.app",
   },
   {
     name: "Real-Time Chat App",
@@ -198,11 +209,11 @@ const projects = [
       {
         name: "zustand",
         color: "",
-      }
+      },
     ],
     image: chat,
     source_code_link: "https://github.com/PrakharATripathi/chat_app/tree/main",
-    live_link:"https://chattlink.vercel.app/login"
+    live_link: "https://chattlink.vercel.app/login",
   },
   {
     name: "Hirez Talent App",
@@ -228,13 +239,13 @@ const projects = [
       {
         name: "Mongo DB",
         color: "orange-text-gradient",
-      }
+      },
     ],
     image: hirex,
     source_code_link: "https://github.com/PrakharATripathi",
-    live_link:"https://hirex-coral.vercel.app/"
+    live_link: "https://hirex-coral.vercel.app/",
   },
-    {
+  {
     name: "Shopping App",
     description:
       "Web-based platform that allows users to search, Product, and manage Product  from  providers. shopping app built with React.js and enhanced with the sleek aesthetics of Tailwind CSS. Elevate your online shopping journey with a blend of powerful functionality and a modern design that caters to your every need.",
@@ -254,12 +265,13 @@ const projects = [
       {
         name: "Mongo DB",
         color: "orange-text-gradient",
-      }
+      },
     ],
     image: carrent,
-    source_code_link: "https://github.com/PrakharATripathi/React-Project/tree/main/orderify",
-    live_link:"https://orderifyapp.netlify.app/"
-  }
+    source_code_link:
+      "https://github.com/PrakharATripathi/React-Project/tree/main/orderify",
+    live_link: "https://orderifyapp.netlify.app/",
+  },
 ];
 
 export { services, technologies, experiences, projects };

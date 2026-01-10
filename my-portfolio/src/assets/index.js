@@ -7,6 +7,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import chat from "./chat.png";
 import Smart from "./smart.png";
+import reactNative from "./reactNative.png";
+import nodejs from "./nodejs.png";
+import remix from "./remix.png"
+
 
 
 import css from "./tech/css.png";
@@ -55,5 +59,8 @@ export {
   hero,
   hirex,
   chat,
-  Smart
+  Smart,
+  reactNative,
+  nodejs,
+  remix
 };
