@@ -162,7 +162,7 @@ const Navbar = () => {
           </ul>
 
           {/* Resume Download Button */}
-          <a
+          {/* <a
             href={resume}
             download='Prakhar_Tripathi.pdf'
             className='hidden sm:flex items-center gap-2.5 text-white bg-gradient-to-r from-[#915EFF] to-[#7049c7] hover:from-[#A77BFF] hover:to-[#8A65DD] px-5 py-2.5 rounded-md text-sm font-medium transition-all duration-300 shadow-md hover:shadow-[#915EFF]/30 hover:translate-y-[-2px]'
@@ -185,7 +185,7 @@ const Navbar = () => {
               <polyline points='10 9 9 9 8 9'></polyline>
             </svg>
             Resume
-          </a>
+          </a> */}
 
           {/* Mobile Menu Toggle */}
           <div className='sm:hidden flex flex-1 justify-end items-center mobile-menu-container'>
