@@ -21,7 +21,8 @@ import {
   Smart,
   reactNative,
   nodejs,
-  remix
+  remix,
+  Webearl
 } from "../assets";
 
 export const navLinks = [
@@ -140,7 +141,7 @@ const experiences = [
     company_name: "Ordex Technology Solution",
     icon: Ordex,
     iconBg: "#383E56",
-    date: "Augest 2024 - Present",
+    date: "Augest 2024 - December 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -148,6 +149,20 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+    {
+    title: "Software Engineer",
+    company_name: "WebEarl Technologies Private Limited",
+    icon: Webearl,
+    iconBg: "#383E56",
+    date: "January 2026 - Present",
+    points: [
+      "Developing scalable full-stack web applications using React.js, Next.js, Node.js, and MongoDB.",
+      "Designing and implementing secure RESTful APIs and authentication systems using JWT and cookies.",
+      "Building enterprise business solutions including CRM, HRMS, ERP, and AI-powered systems.",
+      "Developing responsive dashboards, admin panels, and dynamic business applications.",
+      "Optimizing application performance through code splitting, caching, and efficient database queries."
+    ],
+  }
 ];
 
 const projects = [

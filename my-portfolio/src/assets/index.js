@@ -29,6 +29,7 @@ import hirex from "./hirex.png";
 
 import Saeculum from "./company/Saeculum.png";
 import Ordex from "./company/Ordex.png";
+import Webearl from "./company/Webearl.png"
 
 
 import carrent from "./carrent.png";
@@ -62,5 +63,6 @@ export {
   Smart,
   reactNative,
   nodejs,
-  remix
+  remix,
+  Webearl
 };
